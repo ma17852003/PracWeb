@@ -6,21 +6,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><base href=".">
 <title>James's Japanese Restaurant </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
        
      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
      <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js">
      </script>
 </head>
-
+<!-- adapt mobile size-->
 <body class="ui-mobile-viewport">  
 <div id="home" data-role="page">
-	
+	<!-- Input the header information of the page -->
 	<div data-role="header" class="ui-header ui-bar-a" role="banner"> 
 		<h1 class="ui-title" tabindex="0" role="heading" aria-level="1"> Location</h1>
 	</div> 
-	
+	<!-- Input the content of the page -->
 	<div data-role="content" class="ui-content" role="main">
 	<div class="ui-grid-a" id="restau_infos">	
 		<div class="ui-block-a">
@@ -33,7 +32,7 @@
 				<li> Gyu Don</li>
 			</ul>			
 		</div>		
-		<div class="ui-block-b">
+		<div >
 		<p><img src="Kabuki-exterior-1.jpg" alt="photo"></p>
 		<p><a href="http://www.kabukirestaurants.com/food/" rel="external" 
         data-role="button" data-theme="c" 
@@ -44,19 +43,23 @@
         </a>
         </p>
 		</div>
-	</div><!-- /grid-a -->
+	</div>
+    
 	<hr>
-	
-	<div class="ui-grid-a" id="contact_infos">	
+	<!-- Input the information -->
+	<div id="contact_infos">	
 		<div class="ui-block-a">
 		<h2> Contact us</h2>
 		<p>Melbourne St, Murrumbeena</p>
 		<p>  Victoria 3163 Austrlia</p>		
 		</div>		
-		<div class="ui-block-b">
+        
+		<div>
+             <!-- Input image sources-->
 		<img style="10%" src="James's Japanese Restaurant.png" alt="Plan A">
 		</div>
-	</div><!-- /grid-a -->
+	</div>
+    <!-- A button with link to web page-->
 	<div id="contact_buttons">	
 		<a href="https://www.google.com.tw/maps/place/Melbourne+St,+Murrumbeena+VIC+3163%E6%BE%B3%E6%B4%B2/@-37.8889363,145.0666532,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad66a3edd9b794f:0x1fdb22e77cc53406?hl=zh-TW" 
         data-role="button" data-icon="maps" data-theme="c" 
@@ -66,8 +69,9 @@
         <span class="ui-icon ui-icon-maps ui-icon-shadow"></span>
         </span>
         </a> 	
+            <!-- A button with link to mobile number -->
 		<a href="tel:0421787188" data-role="button" data-icon="tel" 
-        data-theme="c" class="ui-btn ui-btn-icon-left ui-btn-corner-all ui-shadow ui-btn-up-c">
+        data-theme="c" class="ui-btn ui-btn-icon-left ui-btn-corner-all ui-shadow ui-btn-up-c">	
         <span class="ui-btn-inner ui-btn-corner-all">
         <span class="ui-btn-text"> Call us </span>
         <span class="ui-icon ui-icon-tel ui-icon-shadow"></span>
@@ -75,7 +79,7 @@
         </a>	
 	</div>	
 	<hr>
-	
+	<!-- Input a rating button -->
 	<div id="notation">	
 	<form>
 	<label for="select-choice-0" class="select"><h2> User rating </h2></label>
